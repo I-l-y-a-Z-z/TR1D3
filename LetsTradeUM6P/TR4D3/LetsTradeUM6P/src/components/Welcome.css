@@ -1,0 +1,38 @@
+
+
+.welcome {
+    border-width: 3px;
+    border-style: solid;
+    border-color: #10375C;
+}
+.Text1 {
+    text-align: center;
+    font-family: helvetica;
+    font-size: 30px;
+}
+
+
+.Text2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 20px;
+    margin-bottom: 15px;
+    width : 50%;
+}
+
+.quest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height:60px;
+
+}
+
+.top {
+    height : 40px;
+}

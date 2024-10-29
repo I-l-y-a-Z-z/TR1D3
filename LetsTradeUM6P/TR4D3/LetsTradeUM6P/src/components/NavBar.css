@@ -1,0 +1,68 @@
+
+
+.nav-link{
+    color: #F4F6FF;
+    margin-top: auto;
+    margin-left: 20px;
+}
+
+.navigation {
+    width: 100%;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 20px;
+    margin: auto;
+    font-style: bold;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    background-color: #10375C; 
+}
+
+.navbar-toggler {
+    background-color: white;
+    margin: 10px;
+
+}
+
+.search {
+    color: white;
+    border-color: white;
+    margin-right: 10px;
+}
+
+.logomain {
+    width: 200px;
+    height: 25%;
+}
+
+.d-flex {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.Accountpfp {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.navbar-brand{
+    width : 50%;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+

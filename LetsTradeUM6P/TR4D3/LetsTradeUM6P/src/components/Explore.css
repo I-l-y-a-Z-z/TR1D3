@@ -1,0 +1,21 @@
+.realign {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 200%;
+    margin-bottom: 50px;
+}
+
+.logopage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 200%;
+    margin-bottom: 40px;
+}
+
+.top2 {
+    height: 100px;
+}
+
