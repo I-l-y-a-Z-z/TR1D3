@@ -5,4 +5,4 @@ docker run -p 5432:5432 -d \
     -v pgdata:/var/lib/postgresql/data \
     postgres 
 
-# docker exec -it <CONTAINERID> psql -U <USER> <DB_NAME>
+# docker exec -it cb5e0bae1d84 psql -U postgres trade_db
