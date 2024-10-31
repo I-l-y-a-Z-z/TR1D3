@@ -1,0 +1,14 @@
+.dropdownmenu {
+    margin: auto;
+}
+
+.filter-button {
+    width: 200px;
+}
+
+.filterdiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+

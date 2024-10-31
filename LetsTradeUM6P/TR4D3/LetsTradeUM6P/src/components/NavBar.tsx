@@ -32,7 +32,7 @@ function NavBar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#">
+                <Link className="nav-link" to="/explore">
                   Explore
                 </Link>
               </li>
@@ -49,12 +49,12 @@ function NavBar() {
                 <ul className="dropdown-menu">
                   <li>
                     <Link className="dropdown-item" href="#">
-                      Action
+                      Food
                     </Link>
                   </li>
                   <li>
                     <Link className="dropdown-item" href="#">
-                      Another action
+                      Clothing
                     </Link>
                   </li>
                   <li>
@@ -62,7 +62,17 @@ function NavBar() {
                   </li>
                   <li>
                     <Link className="dropdown-item" href="#">
-                      Something else here
+                      Electronics
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" href="#">
+                      Books
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="dropdown-item" href="#">
+                      Other
                     </Link>
                   </li>
                 </ul>
@@ -84,7 +94,9 @@ function NavBar() {
                 Search
               </button>
             </form>
-            <img className="Accountpfp" src=".\public\blankpfp.png" />
+            <Link to="/login">
+              <img className="Accountpfp" src=".\public\blankpfp.png" />
+            </Link>
           </div>
         </div>
       </nav>

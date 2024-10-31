@@ -1,25 +1,20 @@
 import "./BrowsePost.css";
+import { Link } from "react-router-dom";
 
 function BrowsePost() {
   return (
     <>
       <div className="top"></div>
       <div className="quest realign ">
-        <h1>Strat Exploring below</h1>
+        <h1>Start Exploring below</h1>
       </div>
       <div className="browsePost row">
-        <button
-          type="button"
-          className="btn btn-primary btn-lg browse col-md-6"
-        >
+        <Link className="btn btn-primary btn-lg browse col-md-6" to="/explore">
           Explore
-        </button>
-        <button
-          type="button"
-          className="btn btn-secondary btn-lg post col-md-6"
-        >
+        </Link>
+        <Link className="btn btn-secondary btn-lg post col-md-6" to="/post">
           Post
-        </button>
+        </Link>
       </div>
     </>
   );

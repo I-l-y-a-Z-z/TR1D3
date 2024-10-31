@@ -9,3 +9,33 @@
 * {
     box-sizing: border-box;
 }
+
+.explorepage {
+    min-height: 90vh;
+    margin-top: 70px;
+}
+
+.row {
+    width: 100%;
+}
+
+.announcement-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+    margin-bottom : 40px
+}
+
+.plus-image-container {
+    display: flex;
+    justify-content: right;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    margin-bottom: 10px;
+  }
+
+  .img-plus {
+    width: 90px;
+    height: 90px;
+  }

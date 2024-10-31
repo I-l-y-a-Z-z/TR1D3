@@ -25,6 +25,7 @@
     width: 100%;
     margin: auto;
     background-color: #10375C; 
+    z-index: 1000;
 }
 
 .navbar-toggler {
@@ -63,6 +64,12 @@
     margin: 0;
 }
 
+.dropdown-menu {
+    background-color: #10375C;
+}
 
+.dropdown-item {
+    color: white;
+}
 
 

@@ -1,0 +1,51 @@
+.box {
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    border-style: solid;
+    border-width: 3px;
+    background-color: darkgray;
+    width : 300px;
+    height : 220px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin: auto;
+}
+
+.img-announcement {
+    margin-top: 10px;
+    width : 90%;
+    height : 40%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    object-fit: cover;
+}
+
+h5 {
+    margin-top: 10px;
+}
+
+.general {    
+    margin : auto;
+    margin-left: 10px;
+   
+}
+
+.descripters {
+    margin-right : auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.details {
+    margin: auto;
+}
+
+h6 {
+    margin-left: 40%;
+}
