@@ -1,8 +1,8 @@
-import LoginSignup from "../components/LoginSignup";
+import LoginComponent from "../components/Logincomponent";
 function Login() {
   return (
     <>
-      <LoginSignup />
+      <LoginComponent />
     </>
   );
 }

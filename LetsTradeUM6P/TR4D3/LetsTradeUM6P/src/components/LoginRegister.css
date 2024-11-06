@@ -1,0 +1,24 @@
+.loginsignup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
+}
+
+.buttonloginsignup {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin: auto;
+    
+}
+
+.nav-pills {
+    gap: 10px;
+}
+
+.forgor {
+    padding: 0;
+}

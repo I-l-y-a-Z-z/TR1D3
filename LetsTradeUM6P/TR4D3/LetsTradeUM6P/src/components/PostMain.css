@@ -1,0 +1,25 @@
+.fileInput {
+    margin-top: 100px;
+}
+
+.form {
+    width : 60%;
+}
+
+.postmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 50px;
+}
+
+.form-group {
+    margin-top: 20px
+}
+
+.postbutton {
+    margin-bottom: 40px;
+}

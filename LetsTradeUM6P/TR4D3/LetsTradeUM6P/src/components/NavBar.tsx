@@ -1,10 +1,15 @@
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./NavBar.css";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function NavBar() {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Let's Trade UM6P</title>
+      </Helmet>
       <nav className="navbar navbar-expand-lg bg-body-tertiary navigation">
         <div className="container-fluid">
           <Link classsName="navbar-brand" to="/">

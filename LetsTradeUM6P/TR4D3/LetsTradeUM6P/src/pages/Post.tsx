@@ -1,5 +1,10 @@
+import PostMain from "../components/PostMain";
 function Post() {
-  return <div>Post</div>;
+  return (
+    <>
+      <PostMain />
+    </>
+  );
 }
 
 export default Post;
