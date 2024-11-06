@@ -12,7 +12,7 @@ function Explore() {
           <h1>Thank you for choosing</h1>
         </div>
         <div className="logopage">
-          <img src=".\public\Let's Trade1.png" className="img-fluid" />
+          <img src=".\public\assets\Let's Trade1.png" className="img-fluid" />
         </div>
       </div>
     </>

@@ -22,7 +22,7 @@ function Explore() {
           <Announcement />
         </div>
         <Link className="plus-image-container" to="/post">
-          <img src="./public/plus.png" className="img-plus" />
+          <img src="./public/assets/plus.png" className="img-plus" />
         </Link>
       </div>
     </>

@@ -51,7 +51,11 @@ function ContactComponent() {
             </div>
             <div className="col-lg-6">
               <div className="mt-5 mt-lg-0">
-                <img alt="" className="img-fluid" src=".\public\pelgora.png" />
+                <img
+                  alt=""
+                  className="img-fluid"
+                  src=".\public\assets\pelgora.png"
+                />
               </div>
             </div>
           </div>

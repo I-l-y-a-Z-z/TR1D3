@@ -9,7 +9,7 @@ function NavBar() {
         <div className="container-fluid containreplace">
           <Link className="navbar-brand" to="/">
             <img
-              src=".\public\Let's Trade.png"
+              src=".\public\assets\Let's Trade.png"
               className=" logomain img-fluid"
             />
           </Link>
@@ -100,7 +100,7 @@ function NavBar() {
               </button>
             </form>
             <Link to="/login">
-              <img className="Accountpfp" src=".\public\blankpfp.png" />
+              <img className="Accountpfp" src=".\public\assets\blankpfp.png" />
             </Link>
           </div>
         </div>
