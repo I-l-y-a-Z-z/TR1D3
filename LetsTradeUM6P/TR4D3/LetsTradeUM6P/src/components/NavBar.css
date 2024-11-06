@@ -19,7 +19,7 @@
     font-style: bold;
 }
 
-.container-fluid {
+.containreplace {
     display: flex;
     align-items: center;
     width: 100%;
@@ -55,9 +55,6 @@
     margin-bottom: 10px;
 }
 
-.navbar-brand{
-    width : 50%;
-}
 
 .navbar {
     padding: 0;

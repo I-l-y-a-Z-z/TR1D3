@@ -7,6 +7,8 @@ import Explore from "./pages/Explore";
 import Post from "./pages/Post";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import ProductPage from "./pages/ProductPage";
+import Contact from "./pages/Contact";
 function App() {
   return (
     <>
@@ -19,6 +21,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/post" element={<Post />} />
+        <Route path="/product" element={<ProductPage />} />
+        <Route path="/contactus" element={<Contact />} />
       </Routes>
       <Footer />
     </>

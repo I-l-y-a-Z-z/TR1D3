@@ -5,10 +5,11 @@ function Explore() {
   return (
     <>
       <div className="row explorepage">
-        <div className="col-md-3">
+        <div className="col-md-3 dropmenuann">
           <DropDownMenu />
         </div>
-        <div className="col-md-9 announcement-grid">
+        <div className="col-md-9 announcement-grid dropmenuann">
+          <Announcement />
           <Announcement />
           <Announcement />
           <Announcement />

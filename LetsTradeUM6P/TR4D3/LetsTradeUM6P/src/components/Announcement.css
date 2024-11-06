@@ -12,6 +12,10 @@
     margin-top: 100px;
     margin-bottom: 100px;
     margin: auto;
+    border:none;
+  outline:none;
+  text-decoration:none;
+  color:inherit;
 }
 
 .img-announcement {

@@ -1,0 +1,23 @@
+.product {
+    margin-top: 50px;
+    margin-bottom: auto;
+}
+
+
+.offer-btn {
+    background-color: #10375C;
+    border: 0;
+    margin-top: 20px;
+}
+
+.contact-btn {
+    color: 	#075E54;
+    background-color: white;
+    border-color: 	#075E54;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.description-para{
+    width: 50%;
+}

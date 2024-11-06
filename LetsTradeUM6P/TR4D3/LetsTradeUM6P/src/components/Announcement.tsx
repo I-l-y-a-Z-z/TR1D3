@@ -1,9 +1,9 @@
 import "./Announcement.css";
-
+import { Link } from "react-router-dom";
 function Announcement() {
   return (
     <>
-      <div className="box">
+      <Link className="box" to="/product">
         <img
           src=".\public\announcement.png"
           className="img-fluid img-announcement"
@@ -18,7 +18,7 @@ function Announcement() {
           <p className="details"> value.value</p>
         </div>
         <h6>by : name.lastname</h6>
-      </div>
+      </Link>
     </>
   );
 }
