@@ -10,7 +10,7 @@
   },
   "name": "backend",
   "version": "1.0.0",
-  "main": "./dist/index.js",
+  "main": "./public/index.js",
   "scripts": {
     "dev": "ts-node ./src/index.ts",
     "migrate-db": "npx prisma migrate dev --name init",
