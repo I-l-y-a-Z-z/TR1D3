@@ -19,13 +19,12 @@ enum Stars{
 model User {
   id           Int      @id @default(autoincrement())
   fullname     String
-  email        String
+  email        String   @unique
   bio          String
   pfp_link     String
-
   buildingName String
   major        String
-  
+  phoneNum     String?
   offers       Offer[]
 }
 
@@ -34,7 +33,7 @@ model Offer {
   title     String  
   category  String     //{image, title, category, stars, userId}
   imageSrc  String  
-  stars     Stars   
+  stars     Stars  
   userId    Int
   user      User    @relation(fields: [userId], references: [id])
 }
