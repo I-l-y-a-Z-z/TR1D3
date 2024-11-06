@@ -9,10 +9,7 @@ function ProductInfo() {
             <div className="row align-items-center product-info">
               <div className="col-lg-5 col-md-5 col-sm-6">
                 <div className="white-box text-center">
-                  <img
-                    src=".\public\assets\announcement.png"
-                    className="img-fluid"
-                  />
+                  <img src="\assets\announcement.png" className="img-fluid" />
                 </div>
               </div>
               <div className="col-lg-7 col-md-7 col-sm-6 text-center ">

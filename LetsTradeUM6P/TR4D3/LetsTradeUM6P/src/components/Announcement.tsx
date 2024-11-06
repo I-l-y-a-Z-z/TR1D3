@@ -5,7 +5,7 @@ function Announcement() {
     <>
       <Link className="box" to="/product">
         <img
-          src=".\public\assets\announcement.png"
+          src="\assets\announcement.png"
           className="img-fluid img-announcement"
         />
         <h5>"Posting Title"</h5>

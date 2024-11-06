@@ -9,10 +9,7 @@ function Welcome() {
       </div>
       <div className="row align-items-center welcome">
         <div className=" col-md-4">
-          <img
-            src=".\public\assets\pelgora.png"
-            className="img-fluid pelgora"
-          />
+          <img src="\assets\pelgora.png" className="img-fluid pelgora" />
         </div>
         <div className="col-md-8">
           <div>
@@ -42,10 +39,7 @@ function Welcome() {
           </div>
         </div>
         <div className=" col-md-4 order-md-2 order-1">
-          <img
-            src=".\public\assets\greenum6p.png"
-            className="img-fluid pelgora"
-          />
+          <img src="\assets\greenum6p.png" className="img-fluid pelgora" />
         </div>
       </div>
     </>
