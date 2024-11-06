@@ -1,0 +1,39 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+enum Stars{
+  ONE
+  TWO
+  THREE
+  FOUR
+  FIVE
+}
+model User {
+  id           Int      @id @default(autoincrement())
+  fullname     String
+  email        String   @unique
+  bio          String
+  pfp_link     String
+  buildingName String
+  major        String
+  phoneNum     String?
+  offers       Offer[]
+}
+
+model Offer {
+  id        Int     @id @default(autoincrement())
+  title     String  
+  category  String     //{image, title, category, stars, userId}
+  imageSrc  String  
+  stars     Stars  
+  userId    Int
+  user      User    @relation(fields: [userId], references: [id])
+}
