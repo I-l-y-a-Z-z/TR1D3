@@ -16,7 +16,7 @@
     "migrate-db": "npx prisma migrate dev --name init",
     "studio-db": "npx prisma studio",
     "push": "npx prisma db push",
-    "build": "tsc"
+    "build": "tsc build --output public"
   },
   "keywords": [],
   "author": "",
