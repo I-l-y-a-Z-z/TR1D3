@@ -48,12 +48,12 @@ function NavBar() {
                 </Link>
                 <ul className="dropdown-menu">
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="/explore">
                       Food
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="/explore">
                       Clothing
                     </Link>
                   </li>
@@ -61,17 +61,17 @@ function NavBar() {
                     <hr className="dropdown-divider" />
                   </li>
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="/explore">
                       Electronics
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="/explore">
                       Books
                     </Link>
                   </li>
                   <li>
-                    <Link className="dropdown-item" href="#">
+                    <Link className="dropdown-item" href="/explore">
                       Other
                     </Link>
                   </li>
