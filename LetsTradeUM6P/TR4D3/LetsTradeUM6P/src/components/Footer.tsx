@@ -8,7 +8,7 @@ function Footer() {
           <div className="text-center text-white p-3">
             © 2024 Copyright:
             <a className="text-white" href="/">
-              LetsTradeUM6P.com
+              ltum6p.vercel.app
             </a>
           </div>
         </footer>
